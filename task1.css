@@ -1,0 +1,27 @@
+.container{
+    width:100%
+    margin: 20px auto;
+    padding:20px;
+}
+.container ul{
+    padding:0px;
+    margin:0px;
+}
+.container ul li{
+    list-style:none;
+    float:left;
+    width:10%;
+    height:105px;
+    background: red;
+    margin:40px 40px 10px 55px;
+}
+@media screen and (max-width:1200px){
+    .container{
+        width:40%;
+        padding:0px;
+    }
+    .container ul li{
+        width:90%;
+        margin:40px 30px 30px 30px;
+    }
+}
